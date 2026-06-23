@@ -1,0 +1,17 @@
+# Netlify configuration for Wefixx Independent Automotive Service Applet
+# This configuration file informs Netlify how to build, publish, and route requests.
+
+[build]
+  # The directory that gets published to Netlify's CDN
+  publish = "dist"
+
+  # The build command to compile the React/Vite SPA
+  command = "npm run build"
+
+# Redirects rule to enable Single Page Application (SPA) routing
+# This ensures any direct URL path requests (e.g. nested links or portals) 
+# don't trigger 404 errors on refresh, and instead point back to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

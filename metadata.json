@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Wefixx",
+  "description": "Premium car repair and maintenance services landing page with transparent booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
