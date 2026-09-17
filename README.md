@@ -142,3 +142,13 @@ This project is available for educational and portfolio purposes.
 
 * GitHub: https://github.com/RomizKhan31
 * Repository: https://github.com/RomizKhan31/US-Car-Mechanics
+
+---
+
+<div align="center">
+
+**🚗 US Car Mechanics**
+
+Modern Automotive Service Website
+
+</div>
